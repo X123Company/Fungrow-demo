@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fungroo - Teenager Section</title>
+<style>
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .teenager-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  .teenager-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .teenager-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 0 20px;
+  }
+
+  .teenager-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .teenager-item:hover {
+    transform: translateY(-5px);
+  }
+
+  .teenager-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .teenager-content {
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .teenager-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .teenager-content p {
+    font-size: 16px;
+    color: #666;
+  }
+</style>
+</head>
+<body>
+
+<section class="teenager-section">
+  <h2 class="teenager-title">Earn Your First Income</h2>
+  <div class="teenager-grid">
+    <div class="teenager-item">
+      <img src="teen-wk.png" alt="Image 1">
+      <div class="teenager-content">
+        <h3>Why Work With Us?</h3>
+        <p>We are trusted by <strong>1000+ teens</strong> and <strong>500+ companies</strong>.</p>
+        <h3>Project Categories</h3>
+        <p>Social Media Management, Content Creation, Graphic Design, Programming, and more!</p>
+      </div>
+    </div>
+    <div class="teenager-item">
+      <img src="creative-wp.png" alt="Image 2">
+      <div class="teenager-content">
+        <h3>Why Work With Us?</h3>
+        <p>We are trusted by <strong>1000+ teens</strong> and <strong>500+ companies</strong>.</p>
+        <h3>Project Categories</h3>
+        <p>Social Media Management, Content Creation, Graphic Design, Programming, and more!</p>
+      </div>
+    </div>
+    <!-- Add more teenager items as needed -->
+  </div>
+</section>
+
+</body>
+</html>
